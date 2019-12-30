@@ -21,12 +21,17 @@
         transform: scale(1);
         transition: transform 0.5s ease-in;
         z-index: 1;
-        img {
-            border: 1px solid rgba($primaryDarkColor,0.5);
+        .project-image {
+            text-align: center;
             width: 80%;
+            overflow: hidden;
+        }
+        img {
+            width: 100%;
             opacity: 0.8;
-            border-radius: $borderRadius;
             transition: opacity 0.5s ease-in;
+            border-radius: $borderRadius;
+            border: 1px solid rgba($primaryDarkColor,0.5);
         }
     }
     .project-container:hover {

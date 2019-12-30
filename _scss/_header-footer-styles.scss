@@ -89,6 +89,20 @@ nav{
     .contact-links {
         font-size: 2em;
         color:$primaryDarkColor;
+        &:hover i {
+            line-height: 32px;
+            background-color: $primaryDarkColor;
+            color: $primaryLightColor;
+            border-radius: 3px;
+        }
+        .fa-github-square, .fa-linkedin {
+            font-size: 1.2em;
+            margin-top: 4px;
+        }
     }
-    p {margin: 0 1em;}
+    p {
+        margin: 0 1em;
+        text-shadow: 0 0 1px rgba($primaryDarkColor,0.5);
+        font-style: italic;
+    }
 }
