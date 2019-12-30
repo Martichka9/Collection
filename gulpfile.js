@@ -69,5 +69,5 @@ gulp.task("default", gulp.series('jekyll-dev', 'sass', 'copy', 'watch'));
 
 gulp.task("deploy", gulp.series('jekyll', 'sass', 'copy' , function() {
 //gulp.task("deploy", gulp.series('jekyll', 'sass', function() {
-	return cp.spawn('git status && git commit -am "Update docs folder for GHPages, img alt + page lang fixes, " && git pull && git push', { stdio: "inherit", shell: true });
+	return cp.spawn('git status && git commit -am "Update docs folder for GHPages" && git pull && git push', { stdio: "inherit", shell: true });
 }));
