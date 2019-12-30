@@ -4,6 +4,7 @@
 @import "_animations.scss";
 @import "_header-footer-styles.scss";
 @import "_collection-styles.scss";
+@import "_about-styles.scss";
 
 
 main {
@@ -11,7 +12,7 @@ main {
 }
 
 .page-container {
-    @include displayFlex;
+    @include displayFlex(center, center);
     padding: 4em;
     margin-top: $margin-top-layout;
     background-color: $primaryLightColor;

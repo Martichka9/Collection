@@ -1,0 +1,53 @@
+.about-page { 
+    padding: 1em;
+    font-family: 'Acme', sans-serif;
+    // font-family: 'Kalam', cursive;
+    // font-family: 'Chewy', cursive;
+    .info {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 1em 0;
+        
+        .ph{
+            margin-top: 1em;
+        }
+
+        .lang-tools {
+            @include displayFlex(flex-start, center);
+        }
+    }
+}
+
+.icons {
+    margin: 0.5em 0.3em 0;
+    min-width: 43px;
+    text-align: center;
+    i{
+        font-size: 34px;
+    }
+}
+
+.fa-html5 {
+    color:#de4b25;
+}
+.fa-css3-alt {
+    color:#1e5fa9;
+}
+.fa-sass {
+    color:#c76496;
+}
+.fa-js-square {
+    color: #f8c427;
+}
+.fa-boostrap {
+    color: #5e3e8b;
+}
+.fa-angular {
+    color: #b02d30;
+}
+.fa-gulp{
+    color: #cf4647;
+}
+.fa-git-square {
+    color:#a8594f;
+}

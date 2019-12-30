@@ -12,10 +12,10 @@ $purple: rgb(103, 58, 183);
 $boxShadows: 0 0 10px $primaryDarkColor;
 
 
-@mixin displayFlex {
+@mixin displayFlex($justifyContent,$allignItems) {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: $justifyContent;
+    align-items: $allignItems;
     flex-wrap: wrap;
 }
 
@@ -26,7 +26,19 @@ $boxShadows: 0 0 10px $primaryDarkColor;
     justify-items: center;
     text-align: justify;
 }
-
+/*for buttons hover animations*/
+@mixin buttonsDefaultValues{
+    transform: scale(1);
+    font-weight: initial;
+    background-color: initial;
+    transition: transform 0.3s ease-in, font-weight 0.3s ease-in, background-color 0.3s ease-in;
+}
+@mixin buttonsOnHoverValues($bgColorValue,$colorOpacity){
+    transform: scale(1.1);
+    font-weight: bold;
+    background-color: rgba($bgColorValue, $colorOpacity);
+}
+/*end buttons hover animations*/
 @mixin headerFooterContainer{
     width: 100%;
     background-color: $primaryLightColor;

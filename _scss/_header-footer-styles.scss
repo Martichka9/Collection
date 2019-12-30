@@ -1,5 +1,6 @@
 .site-header {
     height: 85px;
+    padding:  0 1.5em;
 }
 
 .home .site-header {
@@ -35,7 +36,7 @@
 nav{
 
     ul {
-        @include displayFlex;
+        @include displayFlex(center, center);
         justify-content: flex-start;
         height: 85px;
     }
@@ -48,8 +49,9 @@ nav{
         font-weight: bold;
         font-style: italic;
         border-radius: $borderRadius;
+        @include buttonsDefaultValues;
         &:hover{
-            background-color: $primaryLightColor;
+            @include buttonsOnHoverValues($primaryLightColor, 1);
             color: $primaryDarkColor;
             text-shadow: none;
             box-shadow: 0 0 10px rgba($orange,0.5) inset, 0 0 5px $primaryDarkColor;
@@ -60,27 +62,37 @@ nav{
 .header-intro {
     background-color: rgba(#fff, 0.7);
     max-width: 900px;
-    margin: 1% auto;
+    margin: 3vh auto;
     @include displayGrid;
-    grid-template-rows: 150px auto;
-    padding: 0 2em 2em;
+    grid-template-rows: 4em auto auto;
+    padding: 2em;
     border-radius: $borderRadius;
     color: $primaryDarkColor;
     text-shadow: 0 0 3px $primaryLightColor;
     box-shadow: $boxShadows;
+    a{
+        margin-top: 1.5em;
+        padding: 0.5em 2em;
+        border: 1px solid $primaryDarkColor;
+        border-radius: $borderRadius;
+        @include buttonsDefaultValues;
+        &:hover{
+            @include buttonsOnHoverValues($primaryDarkColor, 0.5);
+        }
+    }
 }
 
 .site-footer {
-    height: 85px;
+    min-height: 85px;
     background-color: $primaryLightColor;
     box-shadow: $boxShadows;
     
     div.hf-container {
         height: 100%;
-        @include displayFlex;
+        @include displayFlex(center, center);
     }
     ul {
-        @include displayFlex;
+        @include displayFlex(center, center);
         margin: 0 1em;
         li {
             margin: 0.5em;
