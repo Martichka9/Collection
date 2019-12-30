@@ -1,0 +1,25 @@
+title: Your awesome title
+email: your-email@example.com
+description: ""
+destination: docs
+baseurl: ""
+url: "https://martichka9.github.io/"
+twitter_username: jekyllrb
+github_username:  jekyll
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - gulpfile.js
+  - package-lock.json
+  - package.json
+  - node_modules
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md

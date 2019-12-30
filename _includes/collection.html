@@ -1,0 +1,9 @@
+<a class="project-container" href="{{prj.link}}" target="_blank">
+    <img class="project-image" src="{{site.baseurl}}/{{prj.img}}" alt="Project Title">
+    <div class="info">
+        <h3>{{prj.title}}</h3>
+        {% if prj.info != "" %}
+            <p>{{prj.info}}</p>
+        {% endif %}
+    </div>
+</a class="project-container">

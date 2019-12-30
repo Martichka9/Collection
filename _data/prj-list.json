@@ -1,0 +1,36 @@
+{
+  "animations" : [
+    {
+      "link" : "https://codepen.io/Marticka/full/wvvbVgx",
+      "title" : "Scrabble",
+      "img" : "imgs/Scrabble.png",
+      "info" : ""
+    }, {
+      "link" : "https://codepen.io/Marticka/full/ExaXjae",
+      "title" : "Christmas tree",
+      "img" : "imgs/christmas-tree.png",
+      "info" : "CSS only animation"
+    }, {
+      "link" : "https://codepen.io/Marticka/full/wvvbVgx",
+      "title" : "Clock",
+      "img" : "imgs/clock.png",
+      "info" : ""
+    }
+  ],
+  "pages" : [
+    {
+      "link" : "web address",
+      "title" : "title",
+      "img" : "imgs/title.png",
+      "info" : ""
+    }
+  ],
+  "threeJS" : [
+   {
+      "link" : "web address",
+      "title" : "title",
+      "img" : "imgs/title.png",
+      "info" : ""
+   }
+  ]
+}

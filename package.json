@@ -1,0 +1,27 @@
+{
+  "name": "martichka9.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "main": "index.js",
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "child_process": "^1.0.2",
+    "gulp-csso": "^4.0.1",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Martichka9/Martichka9.github.io.git"
+  },
+  "author": "Martichka9",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Martichka9/Martichka9.github.io/issues"
+  },
+  "homepage": "https://github.com/Martichka9/Martichka9.github.io#readme"
+}
