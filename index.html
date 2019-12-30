@@ -8,10 +8,13 @@ order: 10
 <article class="page-container">
     <div class="content">
         <h2 class="group-title">Web pages / templates</h2>
-        {% assign animationsCollection = site.data.prj-list.animations %}
+        <h2>Comming soon</h2>
+        {% comment %}
+        {% assign animationsCollection = site.data.prj-list.pages %}
         {% for prj in animationsCollection %}
             {% include collection.html %}
         {% endfor %}
+        {% endcomment %}
     </div>
 </article>
 <div class="parallax-img"></div>
@@ -28,7 +31,7 @@ order: 10
 <article class="page-container">
     <div class="content">
         <h2 class="group-title">ThreeJS</h2>
-        {% assign animationsCollection = site.data.prj-list.animations %}
+        {% assign animationsCollection = site.data.prj-list.threeJS %}
         {% for prj in animationsCollection %}
             {% include collection.html %}
         {% endfor %}

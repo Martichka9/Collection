@@ -1,20 +1,29 @@
 {
-  "animations" : [
-    {
-      "link" : "https://codepen.io/Marticka/full/wvvbVgx",
-      "title" : "Scrabble",
-      "img" : "imgs/Scrabble.png",
-      "info" : ""
-    }, {
+  "animations" : [ {
       "link" : "https://codepen.io/Marticka/full/ExaXjae",
-      "title" : "Christmas tree",
-      "img" : "imgs/christmas-tree.png",
+      "title" : "Christmas Tree",
+      "img" : "imgs/GIF-christmas-tree.gif",
       "info" : "CSS only animation"
     }, {
       "link" : "https://codepen.io/Marticka/full/wvvbVgx",
+      "title" : "Scrabble",
+      "img" : "imgs/GIF-scrabble.gif",
+      "info" : ""
+    }, {
+      "link" : "https://codepen.io/Marticka/full/jOOKYNQ",
       "title" : "Clock",
       "img" : "imgs/clock.png",
       "info" : ""
+    },{
+      "link" : "https://codepen.io/Marticka/full/oNvOZxg",
+      "title" : "Simple Preloader",
+      "img" : "imgs/GIF-simple-preloader.gif",
+      "info" : "CSS only animation"
+    },{
+      "link" : "https://codepen.io/Marticka/full/KrPYKG",
+      "title" : "Scissors Animation",
+      "img" : "imgs/GIF-scissors.gif",
+      "info" : "CSS only animation"
     }
   ],
   "pages" : [
@@ -26,11 +35,23 @@
     }
   ],
   "threeJS" : [
-   {
-      "link" : "web address",
-      "title" : "title",
-      "img" : "imgs/title.png",
-      "info" : ""
-   }
+    {
+       "link" : "https://codepen.io/Marticka/full/oOrXem",
+       "title" : "Sun and Moon landscape",
+       "img" : "imgs/GIF-THREEJS-landscape.gif",
+       "info" : ""
+    },
+    {
+       "link" : "https://codepen.io/Marticka/full/QoKwYK",
+       "title" : "Planet with rings",
+       "img" : "imgs/GIF-THREEJS-planet-with-rings.gif",
+       "info" : ""
+    },
+    {
+       "link" : "https://codepen.io/Marticka/full/KEGdmw",
+       "title" : "Simple rotation",
+       "img" : "imgs/GIF-THREEJS-rotation.gif",
+       "info" : ""
+    }
   ]
 }
