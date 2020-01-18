@@ -28,10 +28,10 @@
   ],
   "pages" : [
     {
-      "link" : "web address",
-      "title" : "title",
-      "img" : "imgs/title.png",
-      "info" : ""
+      "link" : "https://martichka9.github.io/yokos-kitchen-hw/",
+      "title" : "Yoko's Kitchen Simple website",
+      "img" : "imgs/GIF-yokos-kitchen.gif",
+      "info" : "(hw)"
     }
   ],
   "threeJS" : [
