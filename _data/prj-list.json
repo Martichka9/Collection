@@ -29,9 +29,14 @@
   "pages" : [
     {
       "link" : "https://martichka9.github.io/yokos-kitchen-hw/",
-      "title" : "Yoko's Kitchen Simple website",
+      "title" : "Yoko's Kitchen",
       "img" : "imgs/GIF-yokos-kitchen.gif",
-      "info" : "(hw)"
+      "info" : " Simple website (course homework)"
+    },{
+      "link" : "https://martichka9.github.io/vj-road-assistance/",
+      "title" : "Road Assistance",
+      "img" : "imgs/GIF-vj-road-assistance.gif",
+      "info" : "template page"
     }
   ],
   "threeJS" : [

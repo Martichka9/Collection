@@ -83,19 +83,21 @@ nav{
 }
 
 .site-footer {
-    min-height: 85px;
+    min-height: 72px;
     background-color: $primaryLightColor;
     box-shadow: $boxShadows;
     
     div.hf-container {
-        height: 100%;
         @include displayFlex(center, center);
     }
+    .contacts-block {height: 72px;}
     ul {
         @include displayFlex(center, center);
         margin: 0 1em;
+        height: 100%;
+        padding: .7em 0;
         li {
-            margin: 0.5em;
+            margin: 0 .5em;
         }
     }
     .contact-links {
