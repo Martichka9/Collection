@@ -37,6 +37,11 @@
       "title" : "Road Assistance",
       "img" : "imgs/GIF-vj-road-assistance.gif",
       "info" : "template page"
+    },{
+      "link" : "https://martichka9.github.io/css-advanced-exam/",
+      "title" : "Travel Inspire",
+      "img" : "imgs/GIF-travel-inspire.gif",
+      "info" : "Simple website template (exam)"
     }
   ],
   "threeJS" : [
