@@ -43,13 +43,13 @@ nav{
 
     a {
         color:$primaryLightColor;
-        text-shadow: $boxShadows;
+        text-shadow: 0 0 5px $primaryDarkColor;
         text-decoration: none;
         padding: 0.7em 1.2em;
-        font-weight: bold;
         font-style: italic;
         border-radius: $borderRadius;
         @include buttonsDefaultValues;
+        font-weight: bold;
         &:hover{
             @include buttonsOnHoverValues($primaryLightColor, 1);
             color: $primaryDarkColor;
