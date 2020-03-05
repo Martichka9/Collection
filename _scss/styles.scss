@@ -13,12 +13,12 @@ main {
 
 .page-container {
     @include displayFlex(center, center);
-    padding: 1em;
+    padding: 1em 3em 3em;
     margin-top: $margin-top-layout;
     background-color: $primaryLightColor;
     transform: skewy(-$distortion);
     width: 100%;
-    min-height: 500px;
+    min-height: 400px;
     z-index: 10;
     box-shadow: $boxShadows;
     position: relative;

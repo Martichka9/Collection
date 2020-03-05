@@ -1,5 +1,10 @@
 {
   "animations" : [ {
+    "link" : "https://codepen.io/Marticka/full/dyoRZOK",
+    "title" : "A Puzzle",
+    "img" : "imgs/puzzle.gif",
+    "info" : ""
+    },{
       "link" : "https://codepen.io/Marticka/full/ExaXjae",
       "title" : "Christmas Tree",
       "img" : "imgs/GIF-christmas-tree.gif",
