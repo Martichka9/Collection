@@ -29,6 +29,21 @@
       "title" : "Scissors Animation",
       "img" : "imgs/GIF-scissors.gif",
       "info" : "CSS only animation"
+    },{
+      "link" : "https://codepen.io/Marticka/full/MWegpjr",
+      "title" : "Stalking cat loader",
+      "img" : "imgs/GIF-stalking-cat-loader.gif",
+      "info" : "CSS only animation"
+    },{
+      "link" : "https://codepen.io/Marticka/full/RwRVEvd",
+      "title" : "Cheezy sandwich",
+      "img" : "imgs/GIF-cheezy-sandwich.gif",
+      "info" : "CSS only animation"
+    },{
+      "link" : "https://codepen.io/Marticka/full/XWKBJQe",
+      "title" : "Jack O'Lantern",
+      "img" : "imgs/GIF-jack-o-lantern.gif",
+      "info" : "CSS only animation"
     }
   ],
   "pages" : [
@@ -67,6 +82,12 @@
        "title" : "Simple rotation",
        "img" : "imgs/GIF-THREEJS-rotation.gif",
        "info" : ""
+    },
+    {
+       "link" : "https://martichka9.github.io/SunSolarSystem/",
+       "title" : "Solar System",
+       "img" : "imgs/GIF-solar-system.gif",
+       "info" : "ThreeJS project in progress"
     }
   ]
 }

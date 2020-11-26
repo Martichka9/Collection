@@ -26,14 +26,15 @@
         .project-image {
             text-align: center;
             width: 80%;
+            max-height: 133px;
             overflow: hidden;
+            border-radius: $borderRadius;
+            border: 1px solid rgba($primaryDarkColor,0.5);
         }
         img {
             width: 100%;
             opacity: 0.8;
             transition: opacity 0.5s ease-in;
-            border-radius: $borderRadius;
-            border: 1px solid rgba($primaryDarkColor,0.5);
         }
     }
     .project-container:hover {
