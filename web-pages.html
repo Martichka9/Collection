@@ -1,0 +1,17 @@
+---
+layout: main
+permalink: /web-pages/
+---
+
+<article class="collection-page-container">
+    <div class="drop-shadow"></div>
+    <h2 class="group-title">Web pages / templates</h2>
+    {% assign showCollection = site.data.prj-list.pages %}
+    {% for prj in showCollection %}
+        {% include collection.html %}
+    {% endfor %}
+</article>
+
+<script>
+    document.body.classList.add("collection-body-style");
+</script>
