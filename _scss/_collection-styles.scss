@@ -1,47 +1,86 @@
+
+//all collections through site  
+.group-title{
+    @include groupTitle;
+}
+
+.project-container {
+    @include displayGrid;
+    grid-template-rows: 170px auto;
+    padding: 0.5em;
+    background-color: #fff;
+    border-radius: $borderRadius;
+    margin: 1em 0.5em;
+    min-height: 250px;
+    box-shadow: $boxShadows;
+    transform: scale(1);
+    transition: transform 0.5s ease-in;
+    z-index: 1;
+    .project-image {
+        text-align: center;
+        width: 240px;
+        max-height: 133px;
+        overflow: hidden;
+        border-radius: $borderRadius;
+        border: 1px solid rgba($primaryDarkColor,0.5);
+    }
+    img {
+        width: 100%;
+        opacity: 0.8;
+        transition: opacity 0.5s ease-in;
+    }
+}
+
+//collections on home page
 .content {
     @include displayFlex(center, center);
     position: relative;
     width: 100%;
     height: 50%;
     transform: skewy($distortion);
-    
-    .group-title{
-        width: 100%;
-        text-align: center;
-    }
-    
-    .project-container {
-        @include displayGrid;
-        grid-template-rows: 170px auto;
-        padding: 0.5em;
-        background-color: #fff;
-        border-radius: $borderRadius;
-        margin: 1em 0.5em;
+
+    .project-container{
         width: 300px;
-        min-height: 250px;
-        box-shadow: $boxShadows;
-        transform: scale(1);
-        transition: transform 0.5s ease-in;
-        z-index: 1;
-        .project-image {
-            text-align: center;
-            width: 80%;
-            max-height: 133px;
-            overflow: hidden;
-            border-radius: $borderRadius;
-            border: 1px solid rgba($primaryDarkColor,0.5);
-        }
-        img {
-            width: 100%;
-            opacity: 0.8;
-            transition: opacity 0.5s ease-in;
-        }
     }
+
     .project-container:hover {
         transform: scale(1.1);
         z-index: 2;
         img {
             opacity: 1;
         }
+    }
+}
+
+//collections  pages
+.collection-body-style {
+    @include backgroundOne;
+}
+
+.drop-shadow{
+    box-shadow: 0 9px 9px #471a7b;
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    top: -6px;
+}
+
+.collection-page-container{
+    @include displayFlex(center, center);
+    padding: 1em 0;
+    background-color: rgba(239, 227, 255, 0.8);
+    position: relative;
+
+    .project-container{
+        width: 90%;
+        grid-template-columns: 30% 60%;
+        
+        .info{
+            grid-area: 2 / 1;
+        }
+    }
+
+    .project-detail {
+        grid-row: 1 / span 3;
     }
 }

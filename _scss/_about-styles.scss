@@ -4,9 +4,7 @@
     // font-family: 'Kalam', cursive;
     // font-family: 'Chewy', cursive;
     .info {
-        max-width: 900px;
-        margin: 0 auto;
-        padding: 1em 0;
+        @include containerStyle;
         
         .ph{
             margin-top: 1em;
