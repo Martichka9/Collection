@@ -82,26 +82,27 @@ nav{
 }
 
 .site-footer {
-    min-height: 72px;
+    height: 72px;
     background-color: $primaryLightColor;
     box-shadow: $boxShadows;
     
     div.hf-container {
         @include displayFlex(center, center);
+        height: 100%;
     }
     .contacts-block {height: 72px;}
     ul {
         @include displayFlex(center, center);
-        margin: 0 1em;
-        height: 100%;
-        padding: .7em 0;
+    
         li {
             margin: 0 .5em;
         }
     }
     .contact-links {
-        font-size: 2em;
+        font-size: 1.6em;
         color:$primaryDarkColor;
+        line-height: 0px;
+
         &:hover i {
             line-height: 32px;
             background-color: $primaryDarkColor;
