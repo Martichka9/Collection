@@ -15,7 +15,7 @@
       "img" : "imgs/GIF-cheezy-sandwich.gif",
       "info" : "CSS only animation"
     },{
-      "link" : "https://codepen.io/Marticka/full/MWegpjr",
+      "link" : "https://martichka9.github.io/stalking-cat-loader/",
       "title" : "Stalking cat loader",
       "img" : "imgs/GIF-stalking-cat-loader.gif",
       "info" : "CSS only animation"
@@ -23,6 +23,16 @@
       "link" : "https://codepen.io/Marticka/full/XWKBJQe",
       "title" : "Jack O'Lantern",
       "img" : "imgs/GIF-jack-o-lantern.gif",
+      "info" : "CSS only animation"
+    }, {
+      "link" : "https://codepen.io/Marticka/full/BajRLKo",
+      "title" : "Mini Solar System",
+      "img" : "imgs/mini-solar-system.gif",
+      "info" : ""
+    },{
+      "link" : "https://codepen.io/Marticka/full/qBaZxoz",
+      "title" : "A fish",
+      "img" : "imgs/fish.gif",
       "info" : "CSS only animation"
     }, {
       "link" : "https://codepen.io/Marticka/full/jOOKYNQ",
@@ -50,17 +60,20 @@
       "link" : "https://martichka9.github.io/css-advanced-exam/",
       "title" : "Travel Inspire",
       "img" : "imgs/GIF-travel-inspire.gif",
-      "info" : "Simple website template (exam)"
+      "info" : "Simple website template (exam)",
+      "detail" : "<p>This is a kind of template project created for the exam of CSS Advanced course.</p><p>There are added plenty of css animations, as a requirement.</p><p>Responsive styles loads well on all screen sizes.</p><p>Used languages, tools, technologies: Gulp, Jekyll, SCSS, JS, HTML.</p>"
     }, {
       "link" : "https://martichka9.github.io/yokos-kitchen-hw/",
       "title" : "Yoko's Kitchen",
       "img" : "imgs/GIF-yokos-kitchen.gif",
-      "info" : " Simple website (course homework)"
+      "info" : "Simple template</br>(course homework)",
+      "detail" : "<p>This is another template site created as homework task durring Web Fundamentals - HTML5 course in 2018.</p><p>Responsive styles loads well on all screen sizes.</p><p>When migrated to Github Pages is also migrated to use Gulp, Jekyll and SCSS.</p>"
     },{
       "link" : "https://martichka9.github.io/vj-road-assistance/",
       "title" : "Road Assistance",
       "img" : "imgs/GIF-vj-road-assistance.gif",
-      "info" : "template page"
+      "info" : "template page",
+      "detail" : "<p>This is a template site created as weekend hobby project.</p><p>Used technologies, languages, etc: Webpack, SCSS, HTML.</p>"
     }
   ],
   "threeJS" : [
@@ -68,7 +81,8 @@
       "link" : "https://martichka9.github.io/SunSolarSystem/",
       "title" : "Solar System",
       "img" : "imgs/GIF-solar-system.gif",
-      "info" : "ThreeJS project in progress"
+      "info" : "ThreeJS project in progress",
+      "detail" : "<p>This is a Solar System hobby project.</p><p>The sizes, orbits, direction and speed of the planets are calculated to be proportional to the real ones.</p><p>Click on any of the names in the lower right to take a closer look at the planet.</p><p>Languages, tools, etc. : Webpack, three.js</p>"
     },
     {
        "link" : "https://codepen.io/Marticka/full/oOrXem",
@@ -87,7 +101,6 @@
        "title" : "Simple rotation",
        "img" : "imgs/GIF-THREEJS-rotation.gif",
        "info" : ""
-    },
-    
+    }
   ]
 }
