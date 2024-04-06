@@ -1,4 +1,4 @@
-<a class="project-container" href="{{prj.link}}" target="_blank">
+<a class="{% if page.url == '/simple-animations/' %}project-container-anim {% endif %} project-container" href="{{prj.link}}" target="_blank">
     <div class="project-image">
         <img src="{{site.baseurl}}/{{prj.img}}" alt="Project Title">
     </div class="project-image">

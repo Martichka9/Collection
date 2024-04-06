@@ -24,16 +24,16 @@
       "title" : "Jack O'Lantern",
       "img" : "imgs/GIF-jack-o-lantern.gif",
       "info" : "CSS only animation"
-    }, {
-      "link" : "https://codepen.io/Marticka/full/BajRLKo",
-      "title" : "Mini Solar System",
-      "img" : "imgs/mini-solar-system.gif",
-      "info" : ""
     },{
       "link" : "https://codepen.io/Marticka/full/qBaZxoz",
       "title" : "A fish",
       "img" : "imgs/fish.gif",
       "info" : "CSS only animation"
+    }, {
+      "link" : "https://codepen.io/Marticka/full/BajRLKo",
+      "title" : "Mini Solar System",
+      "img" : "imgs/mini-solar-system.gif",
+      "info" : ""
     }, {
       "link" : "https://codepen.io/Marticka/full/jOOKYNQ",
       "title" : "Clock",

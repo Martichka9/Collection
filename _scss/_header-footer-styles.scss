@@ -70,10 +70,11 @@ nav{
     text-shadow: 0 0 3px $primaryLightColor;
     box-shadow: $boxShadows;
     a{
-        margin-top: 1.5em;
+        margin: 1.5em auto;
         padding: 0.5em 2em;
         border: 1px solid $primaryDarkColor;
         border-radius: $borderRadius;
+        max-width: 221px;
         @include buttonsDefaultValues;
         &:hover{
             @include buttonsOnHoverValues($primaryDarkColor, 0.5);
