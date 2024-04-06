@@ -2,14 +2,13 @@
 
 let gulp = require("gulp"),
     csso = require("gulp-csso"),
+	cp = require("child_process"),
 	browserSync = require('browser-sync').create(),
-	sass = require('gulp-sass'),
-	cp = require("child_process");
+	sass = require('gulp-sass')(require('sass'));
 
 gulp.task("sass", function() {
 	return gulp.src( '_scss/**/*.scss')
 		.pipe( sass().on('error', sass.logError) )
-		// .pipe( autoprefixer() )
 		.pipe( csso() )
 		.pipe( gulp.dest( './docs/css/' ) )
 		.pipe( browserSync.stream({ match: '**/*.css' }) )
