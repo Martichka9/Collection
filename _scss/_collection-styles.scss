@@ -75,11 +75,16 @@
     background-color: rgba(239, 227, 255, 0.8);
     position: relative;
 
-    .project-container{
-        /* width: 90%;
-        grid-template-columns: 30% 60%; */
+    .project-container-anim{
+        display: block;
         line-height: 2em;
         text-align: center;
+        width: auto !important;
+    }
+
+    .project-container{
+        width: 69%;
+        grid-template-columns: 30% 60%;
 
         .info{
             grid-area: 2 / 1;
