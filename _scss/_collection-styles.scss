@@ -65,6 +65,10 @@
     top: -6px;
 }
 
+.project-detail {
+    display: none; 
+}
+
 .collection-page-container{
     @include displayFlex(center, center);
     padding: 1em 0;
@@ -78,9 +82,10 @@
         .info{
             grid-area: 2 / 1;
         }
-    }
-
-    .project-detail {
-        grid-row: 1 / span 3;
+        
+        .show-prj-detail {
+            display: inherit;
+            grid-row: 1 / span 3;
+        }
     }
 }

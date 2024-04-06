@@ -8,12 +8,10 @@
             <p>{{prj.info}}</p>
         {% endif %}
     </div>
-    
-    {% assign pages = "/simple-animations/, /threejs/, /web-pages/" %}
-    {% if pages contains page.url %}
-    <div class="project-detail">
-        <p>here comes project detail</p>
-    </div>    
-    {% endif %}
+
+    <div class="{% if page.url != '/' %}show-prj-detail{% else %}project-detail{% endif %}">
+        <p>{{page.url}}</p>
+    </div>   
+   
 </a class="project-container">
 
