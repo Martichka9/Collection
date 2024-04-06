@@ -76,9 +76,11 @@
     position: relative;
 
     .project-container{
-        width: 90%;
-        grid-template-columns: 30% 60%;
-        
+        /* width: 90%;
+        grid-template-columns: 30% 60%; */
+        line-height: 2em;
+        text-align: center;
+
         .info{
             grid-area: 2 / 1;
             width: 240px;

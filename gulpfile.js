@@ -6,7 +6,7 @@ let gulp = require("gulp"),
 	browserSync = require('browser-sync').create(),
 	sass = require('gulp-sass')(require('sass'));
 
-gulp.task("sass", function() {
+gulp.task("sass", async function() {
 	return gulp.src( '_scss/**/*.scss')
 		.pipe( sass().on('error', sass.logError) )
 		.pipe( csso() )
