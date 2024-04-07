@@ -67,7 +67,7 @@
       "title" : "Yoko's Kitchen",
       "img" : "imgs/GIF-yokos-kitchen.gif",
       "info" : "Template (course homework)",
-      "detail" : "<p>This is another template site created as homework task durring Web Fundamentals - HTML5 course in 2018.</p><p>Responsive styles loads well on all screen sizes.</p><p>When migrated to Github Pages is also migrated to use Gulp, Jekyll and SCSS.</p>"
+      "detail" : "<p>This is another template site created as homework task durring Web Fundamentals - HTML5 course in 2018.</p><p>Responsive styles loads well on all screen sizes.</p><p>When migrated to GitHub Pages is also migrated to use Gulp, Jekyll and SCSS.</p>"
     },{
       "link" : "https://martichka9.github.io/vj-road-assistance/",
       "title" : "Road Assistance",
