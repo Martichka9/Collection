@@ -66,7 +66,7 @@
       "link" : "https://martichka9.github.io/yokos-kitchen-hw/",
       "title" : "Yoko's Kitchen",
       "img" : "imgs/GIF-yokos-kitchen.gif",
-      "info" : "Simple template</br>(course homework)",
+      "info" : "Template (course homework)",
       "detail" : "<p>This is another template site created as homework task durring Web Fundamentals - HTML5 course in 2018.</p><p>Responsive styles loads well on all screen sizes.</p><p>When migrated to Github Pages is also migrated to use Gulp, Jekyll and SCSS.</p>"
     },{
       "link" : "https://martichka9.github.io/vj-road-assistance/",
@@ -85,19 +85,19 @@
       "detail" : "<p>This is a Solar System hobby project.</p><p>The sizes, orbits, direction and speed of the planets are calculated to be proportional to the real ones.</p><p>Click on any of the names in the lower right to take a closer look at the planet.</p><p>Languages, tools, etc. : Webpack, three.js</p>"
     },
     {
-       "link" : "https://codepen.io/Marticka/full/oOrXem",
+       "link" : "#",
        "title" : "Sun and Moon landscape",
        "img" : "imgs/GIF-THREEJS-landscape.gif",
        "info" : ""
     },
     {
-       "link" : "https://codepen.io/Marticka/full/QoKwYK",
+       "link" : "#",
        "title" : "Planet with rings",
        "img" : "imgs/GIF-THREEJS-planet-with-rings.gif",
        "info" : ""
     },
     {
-       "link" : "https://codepen.io/Marticka/full/KEGdmw",
+       "link" : "#",
        "title" : "Simple rotation",
        "img" : "imgs/GIF-THREEJS-rotation.gif",
        "info" : ""
