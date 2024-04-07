@@ -19,9 +19,13 @@
 .icons {
     margin: 0.5em 0.3em 0;
     min-width: 43px;
+    max-height: 43px;
     text-align: center;
     i{
         font-size: 34px;
+    }
+    img {
+        max-height: 43px;
     }
 }
 

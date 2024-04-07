@@ -27,14 +27,14 @@ order: 10
     </div>
 </article>
 <div class="parallax-img"></div>
-<article class="page-container">
+<article class="page-container threejs">
     <div class="content">
         <h2 class="group-title">Three.JS</h2>
         {% assign showCollection = site.data.prj-list.threeJS %}
         {% for prj in showCollection limit:3 %}
             {% include collection.html %}
         {% endfor %}
-        <!-- <h3 class="group-title"><a href="{{site.baseurl}}/threejs">More ...</a></h3> -->
+        <h3 class="group-title"><a href="{{site.baseurl}}/threejs">More ...</a></h3>
     </div>
 </article>
 <div class="parallax-img"></div>
