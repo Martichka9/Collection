@@ -30,6 +30,7 @@ main {
             transform: skewy(-$distortion);
         }
     }
+    .info {width: 240px;}
 }
 
 div.parallax-img {
@@ -53,7 +54,32 @@ div.parallax-img:nth-of-type(3){
 @media only screen and (max-width: 590px) {
     nav ul {justify-content: flex-end;padding-left: 0;}
 }
+
 @media only screen and (max-width: 1125px) {
     nav ul {padding-left: 4em;}
+}
+
+@media only screen and (max-width: 1000px) {
+    .collection-page-container .project-container {
+        grid-template-columns: 90%;
+        grid-template-rows: 170px auto auto;
+        
+        .info {
+            text-align: center;
+        }
+        .show-prj-detail {
+            max-width: fit-content;
+            margin: 0 auto;
+        }
+    }
+    .collection-page-container .project-container .show-prj-detail {
+        grid-row: auto;
+    }
+}
+
+@media only screen and (min-width: 1921px) {
+    body {
+        font-size: 120%;
+    }
 }
 

@@ -1,4 +1,4 @@
-<a class="project-container" href="{{prj.link}}" target="_blank">
+<a class="{% if page.url == '/simple-animations/' %}project-container-anim {% elsif page.url == '/threejs/' %}threejs {% endif %} project-container" href="{{prj.link}}" target="_blank">
     <div class="project-image">
         <img src="{{site.baseurl}}/{{prj.img}}" alt="Project Title">
     </div class="project-image">
@@ -8,12 +8,10 @@
             <p>{{prj.info}}</p>
         {% endif %}
     </div>
-    
-    {% assign pages = "/simple-animations/, /threejs/, /web-pages/" %}
-    {% if pages contains page.url %}
-    <div class="project-detail">
-        <p>here comes project detail</p>
-    </div>    
-    {% endif %}
+
+    <div class="{% if page.url != '/' %}show-prj-detail{% else %}project-detail{% endif %}">
+        {{prj.detail}}
+    </div>   
+   
 </a class="project-container">
 

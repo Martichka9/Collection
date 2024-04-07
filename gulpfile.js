@@ -2,14 +2,13 @@
 
 let gulp = require("gulp"),
     csso = require("gulp-csso"),
+	cp = require("child_process"),
 	browserSync = require('browser-sync').create(),
-	sass = require('gulp-sass'),
-	cp = require("child_process");
+	sass = require('gulp-sass')(require('sass'));
 
-gulp.task("sass", function() {
+gulp.task("sass", async function() {
 	return gulp.src( '_scss/**/*.scss')
 		.pipe( sass().on('error', sass.logError) )
-		// .pipe( autoprefixer() )
 		.pipe( csso() )
 		.pipe( gulp.dest( './docs/css/' ) )
 		.pipe( browserSync.stream({ match: '**/*.css' }) )
@@ -69,5 +68,5 @@ gulp.task("default", gulp.series('jekyll-dev', 'sass', 'copy', 'watch'));
 
 gulp.task("deploy", gulp.series('jekyll', 'sass', 'copy' , function() {
 //gulp.task("deploy", gulp.series('jekyll', 'sass', function() {
-	return cp.spawn('git status && git commit -am "image fix" && git pull && git push', { stdio: "inherit", shell: true });
+	return cp.spawn('git status && git commit -am "GHP deploy" && git pull && git push', { stdio: "inherit", shell: true });
 }));
