@@ -85,6 +85,12 @@
       "detail" : "<p>This is a Solar System hobby project.</p><p>The sizes, orbits, direction and speed of the planets are calculated to be proportional to the real ones.</p><p>Click on any of the names in the lower right to take a closer look at the planet.</p><p>Languages, tools, etc. : Webpack, three.js</p>"
     },
     {
+       "link" : "https://codepen.io/Marticka/full/ZPmLzd",
+       "title" : "Lights and shadows",
+       "img" : "imgs/GIF-lights&shadows.gif",
+       "detail" : "<p>Just experimenting with Three.js shadows, lights and fogs</p>"
+    },
+    {
        "link" : "#",
        "title" : "Sun and Moon landscape",
        "img" : "imgs/GIF-THREEJS-landscape.gif",

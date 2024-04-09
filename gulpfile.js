@@ -68,5 +68,5 @@ gulp.task("default", gulp.series('jekyll-dev', 'sass', 'copy', 'watch'));
 
 gulp.task("deploy", gulp.series('jekyll', 'sass', 'copy' , function() {
 //gulp.task("deploy", gulp.series('jekyll', 'sass', function() {
-	return cp.spawn('git status && git commit -am "GHP deploy" && git pull && git push', { stdio: "inherit", shell: true });
+	return cp.spawn('git status && git commit -am "add threejs fixed animation + GHP deploy" && git pull && git push', { stdio: "inherit", shell: true });
 }));
