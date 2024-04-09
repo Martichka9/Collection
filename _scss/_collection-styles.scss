@@ -52,7 +52,7 @@
     }
 }
 .threejs .content {
-    .project-container:nth-child(3), .project-container:nth-child(4){
+    .project-container:nth-child(4){
         pointer-events: none;
         cursor: default;
     }
@@ -122,7 +122,7 @@
         }
     }
 
-    .threejs:nth-child(4), .threejs:nth-child(5), .threejs:nth-child(6) {
+    .threejs:nth-child(5), .threejs:nth-child(6), .threejs:nth-child(7) {
             pointer-events: none;
             cursor: default;
         }
