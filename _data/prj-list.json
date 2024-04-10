@@ -94,7 +94,7 @@
        "link" : "https://codepen.io/Marticka/full/oOrXem",
        "title" : "Sun and Moon landscape",
        "img" : "imgs/GIF-THREEJS-landscape.gif",
-       "detail" : "<p>simple landscape with moving lights. Tried Three.js water, texture and shadows.</p><p>You can scroll around and look at the terrain.</p><p>If you zoom out far enough you'll see the Boundary of the visual scene from outside.</p>"
+       "detail" : "<p>Simple landscape with moving lights. Tried Three.js water, texture and shadows.</p><p>You can scroll around and look at the terrain.</p><p>If you zoom out far enough you'll see the boundary of the visual scene from outside.</p>"
     },
     {
        "link" : "#",
