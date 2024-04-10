@@ -103,10 +103,11 @@
        "info" : ""
     },
     {
-       "link" : "#",
+       "link" : "https://codepen.io/Marticka/full/KEGdmw",
        "title" : "Simple rotation",
        "img" : "imgs/GIF-THREEJS-rotation.gif",
-       "info" : ""
+       "info" : "",
+       "detail" : "This is one of my first experiments with Three.js. "
     }
   ]
 }
