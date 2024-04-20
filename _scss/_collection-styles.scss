@@ -51,12 +51,6 @@
         }
     }
 }
-.threejs .content {
-    .project-container:nth-child(4){
-        pointer-events: none;
-        cursor: default;
-    }
-}
 
 //collections  pages
 .collection-body-style {
@@ -122,7 +116,7 @@
         }
     }
 
-    .threejs:nth-child(5), .threejs:nth-child(6), .threejs:nth-child(7) {
+    .threejs:nth-child(6) {
             pointer-events: none;
             cursor: default;
         }
