@@ -40,7 +40,6 @@ div.parallax-img {
 }
 div.parallax-img:nth-of-type(1){
     @include parallaxes ("https://images.unsplash.com/photo-1517697471339-4aa32003c11a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80", center);
-    transform: scaleX(-1);
 }
 div.parallax-img:nth-of-type(2){
     @include parallaxes ("https://images.unsplash.com/photo-1517697471339-4aa32003c11a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80", center);

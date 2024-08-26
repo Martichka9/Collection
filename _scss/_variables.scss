@@ -3,10 +3,12 @@ $distortion: 6deg;
 $borderRadius: 0.3em;
 
 /*Site Colors*/
-$primaryDarkColor: #471a7b;
-$primaryLightColor: #efe3ff;
+// $primaryDarkColor: #471a7b;
+$primaryDarkColor: #013933;
+$primaryLightColor: #f7f4fb;
+$primaryLightColor: #f8fbf4;
 $shadowColor: #282031;
-$orange: rgb(255, 141, 0);
+$orange: rgb(255, 208, 0);
 $purple: rgb(103, 58, 183);
 
 $boxShadows: 0 0 10px $primaryDarkColor;
@@ -51,7 +53,8 @@ $boxShadows: 0 0 10px $primaryDarkColor;
 
 @mixin parallaxes ($imgLink, $imgPosition) {
     background-image: url($imgLink);
-    background: linear-gradient(to bottom,rgba($orange, 0.2),rgba($purple, 0.4)),url($imgLink) $imgPosition fixed;
+    // background: linear-gradient(to bottom,rgba($orange, 0.2),rgba($purple, 0.4)),url($imgLink) $imgPosition fixed;
+    background: url($imgLink) $imgPosition fixed;
     background-size: cover;
 }
 
@@ -66,7 +69,11 @@ $boxShadows: 0 0 10px $primaryDarkColor;
     text-align: center;
 }
 
+//header 
 @mixin backgroundOne {
-    background: linear-gradient(to bottom,rgba(255,141,0,.2),rgba(103,58,183,.4)),url(https://images.unsplash.com/photo-1498721409281-998093cc905b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80) no-repeat fixed;
+    // background: linear-gradient(to bottom,rgba(255,141,0,.2),rgba(103,58,183,.4)),url(https://images.unsplash.com/photo-1498721409281-998093cc905b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80) no-repeat fixed;
+    // background: url(https://plus.unsplash.com/premium_photo-1670876807480-ee93dd1d4be7?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat fixed;
+    background: url(https://images.unsplash.com/photo-1553356009-50faee7aa84c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat fixed;
     background-size: cover;
+    background-position-y: bottom;
 }

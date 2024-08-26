@@ -72,7 +72,8 @@
 .collection-page-container{
     @include displayFlex(center, center);
     padding: 1em 0;
-    background-color: rgba(239, 227, 255, 0.8);
+    // background-color: rgba(239, 227, 255, 0.8);
+    background-color: rgba(248, 255, 227, 0.671);
     position: relative;
 
     .project-container-anim{
