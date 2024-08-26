@@ -3,6 +3,9 @@
     font-family: 'Acme', sans-serif;
     // font-family: 'Kalam', cursive;
     // font-family: 'Chewy', cursive;
+    > h2 {
+        text-align: center;
+    }
     .info {
         @include containerStyle;
         

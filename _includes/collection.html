@@ -1,7 +1,7 @@
 <a class="{% if page.url == '/simple-animations/' %}project-container-anim {% elsif page.url == '/threejs/' %}threejs {% endif %} project-container" href="{{prj.link}}" target="_blank">
     <div class="project-image">
         <img src="{{site.baseurl}}/{{prj.img}}" alt="Project Title">
-    </div class="project-image">
+    </div>
     <div class="info">
         <h3>{{prj.title}}</h3>
         {% if prj.info != "" %}
@@ -13,5 +13,5 @@
         {{prj.detail}}
     </div>   
    
-</a class="project-container">
+</a>
 
